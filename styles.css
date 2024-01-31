@@ -1,0 +1,146 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+nav
+{
+	background: rgb(123,174,35);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav>.logo img
+{
+	width: 300px;
+	height: 70px;
+}
+nav>.links>a 
+{
+	padding: 8px;
+	margin: 20px;
+	color: white!important;
+	font-size: 25px;
+	text-decoration: none;
+}
+nav>.links>a:hover
+{
+	cursor: pointer;
+	opacity: 0.3;
+}
+.main 
+{
+/*	margin-bottom: 80px;*/
+	background-color: gray;
+}
+footer
+{
+	background: rgb(68,70,69);
+}
+footer h3
+{
+	font-size: 20px;
+	color: white;
+}
+footer .foot
+{
+	position: relative;
+	width: 300px;
+	padding: 25px;
+	margin-left: 30px;
+}
+footer form .button
+{
+	width: 290px;
+	height: 40px;
+	background: rgb(28,133,194);
+	color: white;
+	font-weight: 800;
+	font-size: 16px;
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+}
+footer form input
+{
+	width: 280px;
+	height: 40px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	outline: none;
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	background: rgb(68,70,69);
+}
+footer form p
+{
+	color: rgba(255, 255, 255,0.7);
+
+}
+footer .copy 
+{
+	background: black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+	width: 100%;
+	margin-top: 10px;
+	height: 70px;
+}
+footer .copy>p>a 
+{
+	margin-left:10px;
+	color: deepskyblue;
+}
+footer .copy>.footlinks>a
+{
+	margin: 10px;
+	color: white;
+}
+footer .copy>.footlinks>a>.insta:hover
+{
+	color: deeppink;
+}
+footer .copy>.footlinks>a>.fb:hover
+{
+	color: deepskyblue;
+}
+footer .copy>.footlinks>a>.tweet:hover
+{
+	color: lightskyblue;
+}
+footer .copy>.footlinks>a>.whatsapp:hover
+{
+	color: green;
+}
+footer .copy>.footlinks>a>.linkedin:hover
+{
+	color: blue;
+}
+.movebtn
+{
+	background: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	position: fixed;
+	margin-top: 800px;
+	margin-left: 200px;
+	text-align: center;	
+}
+.movebtn a
+{
+	color: white;
+	text-decoration: none;
+}
+a
+{
+	text-decoration: none!important;
+}
+.modal.fade.modal-dialog
+{
+	transition: transform 0.75s ease-in;
+	transform: swing;
+}
+
